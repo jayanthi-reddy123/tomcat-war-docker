@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM tomcat:9
 #https://github.com/docker-library/tomcat
 
 ENV CATALINA_HOME /usr/local/tomcat
